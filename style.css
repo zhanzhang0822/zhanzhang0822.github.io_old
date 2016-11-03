@@ -1,0 +1,1839 @@
+/* Project Site - Styling */
+
+
+/* Body of complete webpage */
+body{
+	display: block;
+    position: absolute;
+	width: 1000px;
+	height: 790px;
+	background-color: transparent;
+	
+	margin: 0 0 0 0px;
+	border: 0 0 0 0px;
+	padding: 0 0 0 0px;
+	
+	color: black;
+	font-family:"Calibri";
+
+}
+	  
+#wrapper{
+	position: absolute;
+	width: 1000px;
+	height: 800px;
+}
+
+
+section#header a{
+	text-decoration: none;
+}
+
+
+
+#footer {
+ position:absolute;
+ display: block;
+ top: 120px;
+ 
+ width: 300px;
+ height: 10px;
+ 
+ text-align:right;
+ font-size: 8px;
+ color: black;
+ 
+}
+
+
+
+/* Headers of page */
+
+/* Main header of page */
+#header{
+	position: absolute;
+	display: block;
+	float: left;
+	top: 65px;
+	
+	width: 180px;
+	height: 10px;
+	background: white;
+	
+	margin: 0 0 0 0px;
+	border: 0 0 0 0px;
+	padding: 0 0 0 0px;
+	
+	text-align:right;
+	font-size: 12px;
+	color: black;
+}
+
+#h1{
+	text-align:right;
+	font-size: 25px;
+	color: black;
+}
+
+#h2{
+	text-align:right;
+	font-size: 13px;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* Navigation menu area */
+#navigation {
+	position: absolute;
+	display: block;
+	top: 150px;
+	
+	width: 300px;
+	height: 250px;
+	
+	margin: 0 0 0 0px;
+	border: 0 0 0 0px;
+	padding: 0 0 0 0px;
+}
+
+
+
+#navigation ul {
+	margin: 0 0 0 0px;
+	border: 0 0 0 0px;
+	padding: 0 0 0 0px;
+	
+	width: 180px;
+	height: 100px;
+	
+	text-align: right;
+	font-size: 14px;
+}
+
+
+
+#navigation li {
+	border-bottom:0px solid white;
+	position: relative;
+}
+
+#navigation li a:link, #navigation li a:visited{
+	text-decoration: inherit;
+	background-color: transparent;
+	
+	text-align: right;
+	font-size: 12px;
+	color: #696969;
+}
+
+#navigation li a:hover, #navigation li:hover a {	
+	background-color: transparent;
+	color: #c2c2c2;
+}
+
+
+
+
+
+/*Back button for Thesis documentation and research*/
+#back {
+	position: absolute;
+	display: block;
+	
+	width: 120px;
+	height: 50px;
+	top: 70px;
+	
+	text-decoration: inherit;
+	background-color: transparent;
+	
+	text-align: left;
+	font-size: 12px;
+	color: #696969;
+
+}
+
+
+
+
+/* Sub Nav ------------------------------------------------------------------  */
+/* This is where we hide all drop down lists */
+#navigation ul li ul {     /*hide dropdown list items*/
+	display: none;
+	margin: 0 0 0 0px;
+	border-bottom: 20px solid white;
+	width: 180px;
+}
+
+/* This is where we make the drop down list visible */
+#navigation ul li:hover ul{    /*reveal dropdown list items, general list inside of list*/
+	display: block;
+	left: 0px;
+	z-index:100;
+}
+
+
+#navigation ul li ul#silkworm-sub-list{  /* always show silkworm sublist on silkworm sublist pages */
+
+	/*display: block;*/
+    position: absolute;
+	top: 257px;
+	
+	width: 180px;
+	text-align: right;
+}
+
+#navigation ul li ul#silkworm-sub-list-select{  /* always show silkworm sublist on silkworm sublist pages */
+
+	display: block;
+    position: absolute;
+	top: 257px;
+	
+	width: 180px;
+	text-align: right;
+}
+
+#navigation ul li ul#thesis-sub-list{  /* always show thesis sublist on thesis sublist pages */
+	/*display: block;*/
+	position: absolute;
+	top: 215px;
+	
+	width: 180px;
+	text-align: right;
+}
+
+#navigation ul li ul#thesis-sub-list-select{  /* always show thesis sublist on thesis sublist pages */
+	display: block;
+	position: absolute;
+	top: 215px;
+	
+	width: 180px;
+	text-align: right;
+}
+
+
+#navigation ul li ul#thesis-diary-title{  /* display title attached to diary date */
+	/*display: block;*/
+	position: absolute;
+	top: 300px;
+	background: #fff;
+	height: 400px;
+	overflow: hidden;
+	
+	width: 180px;
+	text-align: right;
+}
+
+
+#navigation ul ul li {  /*defines dropdown list item*/
+	display: block;
+	border-bottom: 0px solid white;
+	margin-left: 0px;
+	width:180px;
+}
+
+#navigation ul ul a:link, #navigation ul ul a:visited {   /*defines dropdown link item*/
+	display: block;
+	background-color: white;
+	color: #696969;
+	font-size: 11px;
+}
+
+#navigation ul ul a:hover {    /*defines dropdown link hover*/
+	display: block;
+	background-color: transparent;
+	color: #c2c2c2;
+}
+
+
+
+
+
+
+
+/* Main area of image and text display */
+#content{
+	width: 1000px;
+	height: 700px;
+	margin: 0 0 0 0px;
+	border: 0 0 0 0px;
+	padding: 0 0 0 0px;
+
+	float: right;
+	top: 100px;	
+}
+
+
+
+/*Thesis documentation content*/
+#thesis-content-documentation{
+	width: 100px;
+	height: 200px;
+
+	float: left;
+	top: 80px;
+	
+	display: block;
+	
+	margin: 0 0 0 0px;
+	border: 0 0 0 0px;
+	padding: 0 0 0 0px;
+	
+	color: #595959;
+	font-family:"Calibri"; 	
+	
+	position: absolute;
+	left: 150px;
+	width: 700px;
+	font-size: 13px;
+	
+	margin: 0 0 0 0px;
+	border: 0 0 0 0px;
+	padding: 0 0 0 0px;
+	
+}
+
+
+#thesis-content-appendix{
+	width: 100px;
+	height: 200px;
+
+	float: left;
+	top: 80px;
+	
+	display: block;
+	
+	margin: 0 0 0 0px;
+	border: 0 0 0 0px;
+	padding: 0 0 0 0px;
+	
+	color: #595959;
+	font-family:"Calibri"; 	
+	
+	position: absolute;
+	left: 150px;
+	width: 800px;
+	font-size: 13px;
+	
+	margin: 0 0 0 0px;
+	border: 0 0 0 0px;
+	padding: 0 0 0 0px;
+	
+}
+
+
+#silkworm-content-research{
+	width: 100px;
+	height: 200px;
+
+	float: left;
+	top: 80px;
+	
+	display: block;
+	
+	margin: 0 0 0 0px;
+	border: 0 0 0 0px;
+	padding: 0 0 0 0px;
+	
+	font-family:"Calibri"; 	
+	
+	position: absolute;
+	left: 150px;
+	width: 600px;
+	font-size: 13px;
+	
+	width: 420px;
+	height: 700px;
+	margin: 0 0 0 0px;
+	border: 0 0 0 0px;
+	padding: 0 0 0 0px;
+	
+}
+
+
+#thesis-content-research{
+	width: 100px;
+	height: 200px;
+
+	float: left;
+	top: 80px;
+	
+	display: block;
+	
+	margin: 0 0 0 0px;
+	border: 0 0 0 0px;
+	padding: 0 0 0 0px;
+	
+
+	font-family:"Calibri"; 	
+	
+	position: absolute;
+	left: 150px;
+	width: 600px;
+	font-size: 13px;
+	
+	width: 420px;
+	height: 700px;
+	margin: 0 0 0 0px;
+	border: 0 0 0 0px;
+	padding: 0 0 0 0px;
+	
+}
+
+
+/* Homepage */
+#homepageimage{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	left: 300px;
+	top: 80px;
+	width: 600px;
+	font-size: 13px;
+
+}
+
+
+/* Other pages */
+#imagedisplay{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	left: 300px;
+	top: 80px;
+	width: 400px;
+}
+
+
+
+
+
+/* about */
+#imagedisplay-about-00{
+    float: right;
+    position: absolute;
+	margin: 0 0 0 0px;
+	left: 0px;
+	top: 80px;
+	width: 600px;
+}
+
+
+
+
+
+/* silkworm research */
+#imagedisplay-silkwormresearch-00{
+    float: right;
+    position: absolute;
+	margin: 0 0 0 0px;
+	left: 500px;
+	top: 805px;
+	width: 350px;
+}
+
+#imagedisplay-silkwormresearch-01{
+    float: right;
+    position: absolute;
+    margin: 0 0 0 0px;
+	left: 500px;
+	top: 850px;
+	width: 350px;
+}
+
+#imagedisplay-silkwormresearch-02{
+    float: right;
+    position: absolute;
+    margin: 0 0 0 0px;
+    left: 500px;
+	top: 1210px;
+	width: 350px;
+}
+
+#imagedisplay-silkwormresearch-03{
+    float: right;
+    position: absolute;
+    margin: 0 0 0 0px;
+    left: 500px;
+	top: 1255px;
+	width: 350px;
+}
+
+#imagedisplay-silkwormresearch-04{
+    float: right;
+    position: absolute;
+    margin: 0 0 0 0px;
+    left: 500px;
+    top: 1300px;
+	width: 350px;
+}
+
+#imagedisplay-silkwormresearch-05{
+    float: right;
+    position: absolute;
+    margin: 0 0 0 0px;
+    left: 500px;
+    top: 1365px;
+	width: 350px;
+}
+
+#imagedisplay-silkwormresearch-06{
+    float: right;
+    position: absolute;
+    margin: 0 0 0 0px;
+    left: 500px;
+    top: 1390px;
+    width: 350px;
+}
+
+#imagedisplay-silkwormresearch-07{
+    float: right;
+    position: absolute;
+    margin: 0 0 0 0px;
+    left: 500px;
+    top: 1760px;
+    width: 350px;
+}
+
+#imagedisplay-silkwormresearch-08{
+    float: right;
+    position: absolute;
+    margin: 0 0 0 0px;
+    left: 500px;
+    top: 3630px;
+    width: 350px;
+}
+
+#imagedisplay-silkwormresearch-09{
+    float: right;
+    position: absolute;
+    margin: 0 0 0 0px;
+    left: 500px;
+    top: 4980px;
+    width: 350px;
+}
+
+#imagedisplay-silkwormresearch-10{
+    float: right;
+    position: absolute;
+    margin: 0 0 0 0px;
+    left: 500px;
+    top: 5180px;
+    width: 350px;
+}
+
+#imagedisplay-silkwormresearch-11{
+    float: right;
+    position: absolute;
+    margin: 0 0 0 0px;
+    left: 500px;
+    top: 5455px;
+    width: 350px;
+}
+
+#imagedisplay-silkwormresearch-12{
+    float: right;
+    position: absolute;
+    margin: 0 0 0 0px;
+    left: 500px;
+    top: 5630px;
+    width: 350px;
+}
+
+#imagedisplay-silkwormresearch-13{
+    float: right;
+    position: absolute;
+    margin: 0 0 0 0px;
+    left: 500px;
+    top: 6070px;
+    width: 350px;
+}
+
+
+
+
+
+/* thesis writing */
+#imagedisplay-research-000{
+	font-style: italic;
+	text-align: center;
+}
+
+
+#imagedisplay-research-00{
+	font-style: italic;
+}
+
+#imagedisplay-research-0{
+	font-weight:bold;
+	font-style: italic;
+}
+
+
+
+#imagedisplay-research-01{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 200px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-02{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 250px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-03{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 520px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-04{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 562px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-05{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 590px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-06{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 635px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-07{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 660px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-08{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 685px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-09{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 735px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-10{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 945px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-11{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 990px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-12{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1035px;
+	width: 355px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-13{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1100px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-14{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1385px;
+	width: 380px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-15{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1450px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-16{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 140px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-17{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 185px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-18{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 235px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-19{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 280px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-20{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 425px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-21{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 520px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-22{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 565px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-23{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 845px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-24{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 890px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-25{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1250px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-26{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1275px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-27{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1250px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-28{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1345px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-29{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1460px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-30{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1505px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-31{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1950px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-32{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1995px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-33{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2025px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-34{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2070px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-35{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2120px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-36{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2150px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-37{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2195px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-38{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2390px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-39{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2930px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-40{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 3020px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-41{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 3065px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-42{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 3165px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-43{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 530px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-44{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 770px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-45{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 990px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-46{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1035px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-47{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1315px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-48{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1360px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-49{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1535px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-50{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1610px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-51{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1815px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-52{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2110px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-53{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2420px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-54{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2445px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-55{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2490px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-56{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2535px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-57{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2565px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+
+#imagedisplay-research-58{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 4590px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-59{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 4925px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-60{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 5000px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-61{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 5130px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-62{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 5190px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-63{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 5350px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-64{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 5470px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-65{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 5720px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-66{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 5765px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-67{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 5795px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-68{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 6060px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-69{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 6090px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-70{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 6240px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-71{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 6270px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-72{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 6335px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-73{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 625px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-74{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 830px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-75{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1090px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-76{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1380px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-77{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 1900px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-78{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2090px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-79{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2735px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+
+#imagedisplay-research-80{
+	float: right;
+	position: absolute;
+	margin: 0 0 0 0px;
+	
+	left: 500px;
+	top: 2795px;
+	width: 350px;
+	
+	color: #595959;
+	font-family:"Calibri";
+	font-size: 12px;
+}
+
+	
+
+
+
