@@ -51,10 +51,10 @@ section#header a{
 
 /* Main header of page */
 #header{
-	position: absolute;
+	position: fixed;
 	display: block;
 	float: left;
-	top: 65px;
+	top: 0px;
 	
 	width: 180px;
 	height: 10px;
